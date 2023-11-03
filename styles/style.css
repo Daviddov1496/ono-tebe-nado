@@ -282,7 +282,7 @@ body {
 }
 
 .footer {
-    padding-top: 540px ;
+    padding-top: 540px;
     width: 1340px;
     height: 97px;
     flex-shrink: 0;
@@ -307,5 +307,5 @@ body {
 
 .footer__social-icon {
     height: 48px;
-    flex-shrink: 0; 
+    flex-shrink: 0;
 }
