@@ -104,7 +104,9 @@ body {
 
 .cover__description {
     display: flex;
+    padding-top: 144px;
     justify-content: flex-end;
+    align-items: first baseline;
     font-size: 22px;
     font-style: normal;
     font-weight: 400;
@@ -114,9 +116,8 @@ body {
 }
 
 .cover__description-text {
-    margin-top: 155px;
     word-spacing: 18px;
-    padding-right: 78px;
+    gap: 80px;
 }
 
 .bet-button {
@@ -131,7 +132,6 @@ body {
     text-transform: uppercase;
     background-color: transparent;
     border: 1px solid #FFF;
-    margin-top: 137px;
 }
 
 .lots {
