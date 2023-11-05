@@ -3,7 +3,6 @@ body {
     max-width: 1440px;
     margin: auto;
     padding: 0;
-    overflow-x: hidden;
     background-color: #FFF;
     font-size: 18px;
     font-style: normal;
@@ -247,7 +246,7 @@ body {
     width: 148px;
     height: 114px;
     flex-shrink: 0;
-    grid-column: 1 ;
+    grid-column: 1;
 }
 
 .about__column {
@@ -260,7 +259,7 @@ body {
     grid-row-end: 2;
     flex-shrink: 0;
     min-width: 885px;
-    padding-top: 95px;
+    padding-top: 97px;
 }
 
 .about__title {
@@ -274,17 +273,18 @@ body {
 .about__text {
     display: flex;
     flex-direction: column;
-    gap: 28px;
+    gap: 25px;
     flex-shrink: 0;
     font-size: 20px;
 }
 
 .footer {
-    width: 100%;
+    max-width: 1340px;
     flex-shrink: 0;
     display: flex;
-    gap: 360px;
+    gap: 340px;
     margin: 180px 50px 90px 50px;
+    justify-content: space-between;
 }
 
 .footer__menu-list {
@@ -300,7 +300,8 @@ body {
     display: flex;
     text-decoration: none;
     list-style:none;
-    gap: 45px;
+    gap: 48px;
+   
 }
 
 .footer__social-icon {
