@@ -2,7 +2,6 @@
 body {
     max-width: 1440px;
     margin: auto;
-    padding: 0;
     background-color: #FFF;
     font-size: 18px;
     font-style: normal;
@@ -173,7 +172,6 @@ body {
     height: 100%;
     width: 100%;
     color: #FFF;
-    font-family: "Raleway", sans-serif;
     font-size: 20px;
     z-index: 1;
     gap: 10px;
@@ -195,7 +193,6 @@ body {
 }
 
 .card__text {
-    font-family: "Raleway", sans-serif;
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
